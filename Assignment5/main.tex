@@ -1,0 +1,133 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}  
+\usepackage{amsmath,amssymb}
+
+\usepackage{multicol}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+
+\title{
+%	\logo{
+JEE MAINS
+
+\large{EE1030}
+
+APRIL 29, 2024 - SHIFT - 2
+%	}
+}
+\author{Homa Harshitha Vuddanti
+
+(EE24BTECH11062)
+}	
+
+\maketitle
+
+\bigskip
+
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+QUESTIONS- 16 TO 30\\
+SECTION A
+\begin{enumerate}
+   
+\item Let $\vec{A}$ be the point of intersection of the lines $3x+2y=14, 5x-y=6$ and $\vec{B}$ be the point of intersection of the lines $4x+3y=8, 6x+y=5.$ The distance of the point $\vec{P}\brak{5,-2}$ from the line $AB$ is
+\begin{multicols}{4}
+    a) 8\\
+    b) $\frac{5}{2}$\\
+    c) 2\\
+    d) $\frac{13}{2}$
+\end{multicols}
+ \item The function $f\brak{x}=\frac{x}{x^2-6x-16}$, $x\in R-\cbrak{-2,8}$
+ \begin{enumerate}
+     \item  decreases in $\brak{-\infty,-2}$ and increases in $\brak{8,\infty}$\\
+     \item decreases in $\brak{-2,8}$ and increases in $\brak{-\infty,-2}\cup \brak{8,\infty}$\\
+     \item decreases in $\brak{-\infty,-2}\cup\brak{-2,\infty}\cup\brak{8,\infty}$\\
+     \item  increases in $\brak{-\infty,-2}\cup\brak{-2,\infty}\cup\brak{8,\infty}$
+ \end{enumerate}
+ 
+ \item If $\sin\brak{\frac{y}{x}}=\ln\abs{x}+\frac{\alpha}{2}$ is the solution of the differential equation $x\cos\brak{\frac{y}{x}}\frac{dy}{dx}=y\cos\brak{\frac{y}{x}}+x$ and $y\brak{1}=\frac{\pi}{3}$, then $\alpha^2$ is equal to
+ \begin{multicols}{4}
+    a) 9\\
+    b) 4\\
+    c) 12\\
+    d) 3
+ \end{multicols}
+ 
+\item   If the mean and variance of five observations are $\frac{24}{5}$ and $\frac{194}{25}$ respectively and the mean of the first four observations is $\frac{7}{2}$, then the variance of the first four observations is equal to
+\begin{multicols}{4}
+    a) $\frac{77}{12}$\\
+    b) $\frac{105}{4}$\\
+    c) $\frac{5}{4}$\\
+    d) $\frac{4}{5}$
+\end{multicols}
+
+\item Let $r$ and $\theta$ respectively be the modulus and amplitude of the complex number $z=2-i\brak{2\tan \frac{5\pi}{8}}$, then $\brak{r,\theta}$ is equal to
+\begin{multicols}{4}
+    a) $\brak{2\sec \frac{3\pi}{8}, \frac{3\pi}{8}}$\\
+    b) $\brak{2\sec \frac{5\pi}{8}, \frac{3\pi}{8}}$\\
+    c) $\brak{2\sec \frac{11\pi}{8}, \frac{11\pi}{8}}$\\
+    d) $\brak{2\sec \frac{3\pi}{8}, \frac{5\pi}{8}}$
+\end{multicols}
+SECTION B
+\item Let the slope of the line $45x+5y+3=0$ be $27r_1+\frac{9r_2}{2}$ for some $r_1,r_2\in R$ then $\lim_{x \to 3}\brak{ \int_{3}^{x} \frac{8t^2}{\frac{3r_2x}{2}-r_2x^2-r_1x^3-3x} \, dt}$ is equal to
+
+\item Let the area of the region $\cbrak{\brak{x,y}:0\leq x \leq 3, 0\leq y\leq min\cbrak{x^2+2,2x+2}}$ be $A$. Then $12A$ is equal to
+
+\item Let $f\brak{x}=\sqrt{\lim_{r \to x}\cbrak{\frac{2r^2\sbrak{\brak{f\brak{r}}^2-f\brak{x}f\brak{r}}}{r^2-x^2}-r^3e^{\frac{f\brak{r}}{r}}}}$ be differentiable in $\brak{-\infty,0}\cup\brak{0,\infty}$ and $f\brak{1}=1$. Then the value of $ea$, such that $f\brak{a}=0$, is equal to
+
+\item Let for any three distinct consecutive terms $a,b,c$ of an A.P, the lines $ax+by+c=0$ be concurrent at the point $\vec{P}$ and $\vec{Q}\brak{\alpha,\beta}$ be a point such that the system of equations \\
+$x+y+z=6\\
+2x+5y+\alpha z=\beta\\
+x+2y+3z=4$, has infinitely many solutions. Then $\brak{PQ}^2$ is equal to
+
+\item Let $\vec{P}\brak{\alpha,\beta}$ be a point on the parabola $y^2=4x$. If $\vec{P}$ lies on the chord of the parabola $x^2=8y$ whose midpoint id $\brak{1,\frac{5}{4}}$, then $\brak{\alpha-28}\brak{\beta-8}$ is equal to 
+
+\item Let the set $C-\cbrak{\brak{x,y}\mid x^2-2^y=2023,x,y\in N}$. Then $\sum_{\brak{x,y}\in C}\brak{x+y}$ is equal to
+
+\item If $\int_{\frac{\pi}{6}}^{\frac{\pi}{3}} \sqrt{1-\sin 2x} \, dx=\alpha+\beta\sqrt{2}+\gamma\sqrt{3}$, where $\alpha,\beta$ and $\gamma$ are rational numbers, then $3\alpha+4\beta-gamma$ is equal to
+
+\item Let $\vec{O}$ be the origin, and $\vec{M}$ and $\vec{N}$ be the points on the lines $\frac{x-5}{4}=\frac{y-4}{1}=\frac{z-5}{3}$ and $\frac{x+8}{12}=\frac{y+2}{5}=\frac{z+11}{9}$ respectively such that $MN$ is the shortest distance between the given lines. Then $\overrightarrow{OM}\cdot\overrightarrow{ON}$ is equal to
+
+\item Remainder when $64^{{32}^{32}}$ is divided by 9 is equal to
+
+\item Let $\alpha,\beta$ be the roots of the equation $x^2-\sqrt{6}x+3=0$ such that $Im\brak{\alpha}>Im\brak{\beta}$. Let $a,b$ be integers not divisible by 3 and $n$ be a natural number such that $\frac{\alpha^{99}}{\beta}+\alpha^{99}=3^n\brak{a+ib},i=\sqrt{-1}$. Then $n+a+b$ is equal to
+\end{enumerate}
+\end{document}
+
+
